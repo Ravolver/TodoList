@@ -18,6 +18,18 @@
 .search-panel-input:focus{
     border: 1px solid #6ad014;
 }
+.search-panel-input:hover::placeholder{
+    letter-spacing: 17px;
+    color: #6ad014;
+    opacity: 0.1;
+    transition: letter-spacing 1s, color 2s, opacity 3s;
+}
+
+.search-panel-input::placeholder{
+  color: #545454;
+    
+}
+
 
 .btn-block {
     width: 35px;
@@ -39,15 +51,4 @@
     border: 1px solid #545454;
 }
 
-.search-panel-input::placeholder{
-  color: #545454;
-    
-}
-
-.search-panel-input:focus::placeholder{
-    color: #32cd32;
-    opacity: 0.5;
-    letter-spacing: 17px;
-
-}
 

@@ -37,9 +37,12 @@
 .add-item-input::placeholder{
     color: #545454;
 }
-.add-item-input:focus::placeholder{
-    color: #32cd32;
-    opacity: 0.5;
+
+
+.add-item-input:hover::placeholder{
     letter-spacing: 16px;
+    color: #6ad014;
+    opacity: 0.1;
+    transition: letter-spacing 1s, color 2s, opacity 3s;
 }
 
