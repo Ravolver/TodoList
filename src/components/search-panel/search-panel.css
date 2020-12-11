@@ -1,0 +1,53 @@
+.search-panel{
+    display: flex;
+}
+.search-panel-input {
+    width: 90%;
+    height: 32px;
+    outline-style: none;
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 20px;
+    background-color: black;
+    color:  #6ad014;
+    border-radius: 10px 0 10px 0;
+    padding-left: 15px;
+    
+}
+
+.search-panel-input:focus{
+    border: 1px solid #6ad014;
+}
+
+.btn-block {
+    width: 35px;
+    height: 32px;
+    background: white url('../..//assets/rabbit_animal_5826.png') no-repeat;
+    transform: scale(-1, 1);
+    border: 0;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+
+.btn-block:active, .btn-block:focus {
+    outline: none;
+    background-color: black;
+}
+.btn-block:hover {
+    filter: invert(100%);
+    border: 1px solid #545454;
+}
+
+.search-panel-input::placeholder{
+  color: #545454;
+    
+}
+
+.search-panel-input:focus::placeholder{
+    color: #32cd32;
+    opacity: 0.5;
+    letter-spacing: 17px;
+
+}
+

@@ -1,0 +1,45 @@
+.add-item-btn {
+    background-color: black;
+    color: white;
+    outline: none;
+    border-radius: 10px 0 10px 0;
+    display: block;
+    width: 70px;
+    border: 1px solid gray;
+    float: right;
+    font-weight: bold;
+}
+.add-item-btn:active, .add-item-btn:focus{
+    outline: none;
+      
+}
+.add-item-btn:active{
+    background-color: black;
+    color: white;
+}
+.add-item-btn:hover{
+    filter: invert(100%);
+}
+.add-item-input {
+    width: 86%;
+    height: 45px;
+    outline-style: none;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 10px 0 10px 0;
+    padding-left: 15px;
+}
+.add-item-input:focus{
+    border: 1px solid #6ad014;
+}
+.add-item-input::placeholder{
+    color: #545454;
+}
+.add-item-input:focus::placeholder{
+    color: #32cd32;
+    opacity: 0.5;
+    letter-spacing: 16px;
+}
+

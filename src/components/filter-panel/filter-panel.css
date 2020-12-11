@@ -1,0 +1,32 @@
+.filter-panel{
+    margin-left: 57%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.button {
+
+    border-radius: 10px 0 10px 0;
+    display: block;
+    width: 70px;
+    border: 1px solid gray;
+}
+
+.button:active, .button:focus{
+    outline: none;
+}
+
+
+.filter-btn{
+    background-color: black;
+    color: white;
+
+}
+
+
+.btn-active {
+    background-color: white;
+    color: black;
+  
+}

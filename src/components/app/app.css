@@ -1,0 +1,23 @@
+*{
+    font-family: Courier, monospace;
+}
+
+.app {
+    width: 550px;
+    height: 700px;
+    background:  url(../../assets/blue-metall.jpg);
+    border-radius: 10px;
+    
+}
+
+
+.todo-list{
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../../assets/1.jpg);
+    width: 500px;
+    height: 300px;
+    border-radius: 5px;
+    
+}
+

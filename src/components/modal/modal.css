@@ -1,0 +1,45 @@
+.modal {
+    width: 550px;
+    height: 700px;
+    background:  url(../../assets/Neo.jpg) no-repeat;
+    border-radius: 10px;
+    background-position: left;
+    display: block;
+    
+}
+
+.modal__password-input{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: black;
+    color: #6ad014;
+    width: 50%;
+    margin:auto;
+    margin-top: 280px;
+    padding-left: 10px;
+    display: block;
+    border-radius: 5px;
+    letter-spacing: 17px;
+}
+
+
+.modal__password-input:focus{
+    outline: none;
+    border: 1px solid #6ad014;
+    
+}
+
+@keyframes placeTransform{
+    0%{letter-spacing:5px;}
+    50%{letter-spacing:20px;}
+    100%{letter-spacing:30px;}
+}
+
+.modal__password-input::placeholder{
+    letter-spacing: 2px;
+}
+.modal__password-input:focus::placeholder{
+    color: #32cd32;
+    opacity: 0.5;
+    letter-spacing: 17px;
+}

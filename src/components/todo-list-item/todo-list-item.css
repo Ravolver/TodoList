@@ -1,0 +1,57 @@
+
+.btn{
+    margin-left: 10px;
+    float: right;
+    height: 32px;
+    width: 32px;
+    border-radius: 40%;
+}
+
+.button-done {
+    background: url('../../assets/red-pills.png') no-repeat;
+    background-position: center;
+}
+
+.button-done:active{
+    box-shadow: 0 0 20px 5px red inset; 
+}
+
+.button-deny {
+    background: url('../../assets/blue-pills.png') no-repeat;
+    background-position: center;
+}
+
+.button-deny:active {
+    box-shadow: 0 0 20px 5px blue inset; 
+}
+
+.todo-list-item {
+    margin: 5px;
+    background-color: rgba(0, 200, 101, 0.3);
+    border-radius: 5px;
+    color: white;
+}
+
+.todo-list-item-label{
+    padding-left: 10px;
+    background-color: rgba(128, 128, 128, 0.2);
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    user-select:none;
+}
+
+.done {
+    text-decoration: line-through;
+    text-decoration-color: red;
+}
+
+.deny {
+    text-decoration: line-through;
+    text-decoration-color: blue;
+}
+
+.important {
+    color: #7fff00;
+}

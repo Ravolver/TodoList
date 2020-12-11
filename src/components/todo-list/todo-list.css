@@ -1,0 +1,26 @@
+.list-group {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.list-item {
+    list-style-type : none;
+    margin-top: 10px;
+}
+
+.list-group::-webkit-scrollbar {
+    width: 12px;
+    opacity: 0.5;
+}
+
+.list-group::-webkit-scrollbar-track {
+    background-color: black;
+    border: 1px solid darkgreen;
+    border-radius: 5px;
+}
+
+.list-group::-webkit-scrollbar-thumb {
+    background-image: url(../../assets/Scroll.png);
+    border: 1px solid darkgreen;
+    border-radius: 5px;
+    
+}
